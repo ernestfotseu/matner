@@ -1,0 +1,9 @@
+*****Commandes à executer Text-mined*****
+ # sudo docker run --rm -it -v /home/ernestserver/Bureau/Annotation/Newtools/text-mined-synthesis_public-master:/text-mined -w /text-mined anaconda-data-science:v4 bash
+ # source activate scifact
+ # apt update
+ # apt install build-essentiel
+ # python setup.py install (in directory MatEntityRecognition, MaterialParser,OperationsExtraction,ReactionCompleter)
+ # python -m spacy download en
+ # cde data download
+ # cp -r /text-mined/MaterialParser/material_parser/rsc/ /root/anaconda3/envs/scifact/lib/python3.7/site-packages/MaterialParser-2.0.0-py3.7.egg/material_parser/

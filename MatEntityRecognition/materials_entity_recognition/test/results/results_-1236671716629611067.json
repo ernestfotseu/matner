@@ -1,0 +1,202 @@
+[
+  {
+    "paragraph": " Samples of (Zn1-xAlxO)mIn2O3 (m=integer; x = 0, 0.004, 0.008, 0.012, 0.016, and 0.02) were prepared from fine high-purity powders of ZnO, In2O3, and Al2O3 by a solid-state reaction. A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media.",
+    "all_materials": [
+      {
+        "text": "(Zn1-xAlxO)mIn2O3",
+        "start": 12,
+        "end": 29,
+        "sentence": " Samples of (Zn1-xAlxO)mIn2O3 (m=integer; x = 0, 0.004, 0.008, 0.012, 0.016, and 0.02) were prepared from fine high-purity powders of ZnO, In2O3, and Al2O3 by a solid-state reaction."
+      },
+      {
+        "text": "ZnO",
+        "start": 134,
+        "end": 137,
+        "sentence": " Samples of (Zn1-xAlxO)mIn2O3 (m=integer; x = 0, 0.004, 0.008, 0.012, 0.016, and 0.02) were prepared from fine high-purity powders of ZnO, In2O3, and Al2O3 by a solid-state reaction."
+      },
+      {
+        "text": "In2O3",
+        "start": 139,
+        "end": 144,
+        "sentence": " Samples of (Zn1-xAlxO)mIn2O3 (m=integer; x = 0, 0.004, 0.008, 0.012, 0.016, and 0.02) were prepared from fine high-purity powders of ZnO, In2O3, and Al2O3 by a solid-state reaction."
+      },
+      {
+        "text": "Al2O3",
+        "start": 150,
+        "end": 155,
+        "sentence": " Samples of (Zn1-xAlxO)mIn2O3 (m=integer; x = 0, 0.004, 0.008, 0.012, 0.016, and 0.02) were prepared from fine high-purity powders of ZnO, In2O3, and Al2O3 by a solid-state reaction."
+      },
+      {
+        "text": "ZnO",
+        "start": 200,
+        "end": 203,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      },
+      {
+        "text": "In2O3",
+        "start": 205,
+        "end": 210,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      },
+      {
+        "text": "Al2O3",
+        "start": 216,
+        "end": 221,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      },
+      {
+        "text": "ethyl alcohol",
+        "start": 234,
+        "end": 247,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      },
+      {
+        "text": "ZrO2",
+        "start": 320,
+        "end": 324,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      }
+    ],
+    "precursors": [
+      {
+        "text": "ZnO",
+        "start": 134,
+        "end": 137,
+        "sentence": " Samples of (Zn1-xAlxO)mIn2O3 (m=integer; x = 0, 0.004, 0.008, 0.012, 0.016, and 0.02) were prepared from fine high-purity powders of ZnO, In2O3, and Al2O3 by a solid-state reaction."
+      },
+      {
+        "text": "In2O3",
+        "start": 139,
+        "end": 144,
+        "sentence": " Samples of (Zn1-xAlxO)mIn2O3 (m=integer; x = 0, 0.004, 0.008, 0.012, 0.016, and 0.02) were prepared from fine high-purity powders of ZnO, In2O3, and Al2O3 by a solid-state reaction."
+      },
+      {
+        "text": "Al2O3",
+        "start": 150,
+        "end": 155,
+        "sentence": " Samples of (Zn1-xAlxO)mIn2O3 (m=integer; x = 0, 0.004, 0.008, 0.012, 0.016, and 0.02) were prepared from fine high-purity powders of ZnO, In2O3, and Al2O3 by a solid-state reaction."
+      },
+      {
+        "text": "ZnO",
+        "start": 200,
+        "end": 203,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      },
+      {
+        "text": "In2O3",
+        "start": 205,
+        "end": 210,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      },
+      {
+        "text": "Al2O3",
+        "start": 216,
+        "end": 221,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      }
+    ],
+    "target": [
+      {
+        "text": "(Zn1-xAlxO)mIn2O3",
+        "start": 12,
+        "end": 29,
+        "sentence": " Samples of (Zn1-xAlxO)mIn2O3 (m=integer; x = 0, 0.004, 0.008, 0.012, 0.016, and 0.02) were prepared from fine high-purity powders of ZnO, In2O3, and Al2O3 by a solid-state reaction."
+      }
+    ],
+    "other_materials": [
+      {
+        "text": "ethyl alcohol",
+        "start": 234,
+        "end": 247,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      },
+      {
+        "text": "ZrO2",
+        "start": 320,
+        "end": 324,
+        "sentence": "A mixture of the ZnO, In2O3, and Al2O3 powders and ethyl alcohol was milled for 4h using a planetary mill (Fritsch pulverisette 6) and a ZrO2 ball as a grinding media."
+      }
+    ]
+  },
+  {
+    "paragraph": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials",
+    "all_materials": [
+      {
+        "text": "LiCoO2",
+        "start": 62,
+        "end": 68,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiMn2O4",
+        "start": 73,
+        "end": 80,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiNi0.5Mn1.5O4",
+        "start": 82,
+        "end": 96,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiNi0.8Co0.2O2",
+        "start": 98,
+        "end": 112,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiNi0.8Co0.15Al0.05O2",
+        "start": 114,
+        "end": 135,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiNiO2",
+        "start": 140,
+        "end": 146,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      }
+    ],
+    "precursors": [],
+    "target": [],
+    "other_materials": [
+      {
+        "text": "LiCoO2",
+        "start": 62,
+        "end": 68,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiMn2O4",
+        "start": 73,
+        "end": 80,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiNi0.5Mn1.5O4",
+        "start": 82,
+        "end": 96,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiNi0.8Co0.2O2",
+        "start": 98,
+        "end": 112,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiNi0.8Co0.15Al0.05O2",
+        "start": 114,
+        "end": 135,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      },
+      {
+        "text": "LiNiO2",
+        "start": 140,
+        "end": 146,
+        "sentence": " According to our model, the compositions that are closest to LiCoO2 are LiMn2O4, LiNi0.5Mn1.5O4, LiNi0.8Co0.2O2, LiNi0.8Co0.15Al0.05O2 and LiNiO2, all of which are also lithium-ion cathode materials"
+      }
+    ]
+  }
+]

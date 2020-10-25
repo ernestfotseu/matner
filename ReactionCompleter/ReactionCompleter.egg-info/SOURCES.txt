@@ -1,0 +1,15 @@
+setup.py
+ReactionCompleter.egg-info/PKG-INFO
+ReactionCompleter.egg-info/SOURCES.txt
+ReactionCompleter.egg-info/dependency_links.txt
+ReactionCompleter.egg-info/not-zip-safe
+ReactionCompleter.egg-info/requires.txt
+ReactionCompleter.egg-info/top_level.txt
+reaction_completer/__init__.py
+reaction_completer/completer.py
+reaction_completer/errors.py
+reaction_completer/material.py
+reaction_completer/periodic_table.py
+reaction_completer/test/__init__.py
+reaction_completer/test/test_completer.py
+reaction_completer/test/test_material.py
