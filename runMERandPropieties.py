@@ -27,6 +27,7 @@ if __name__ == "__main__":
 	# print('all_materials', all_materials)	     
 	# Get material for list
 	first = 0
+	print("\n Json Results :\n ")
 	for material_string in all_materials:
 	   material_propriety=mp.parse_material_string(material_string['text'])
 	   text = material_string['text']
@@ -48,7 +49,7 @@ if __name__ == "__main__":
 	   amount = propieties["composition"][0]["amount"]
 	   elements = propieties["composition"][0]["elements"]
 	   species = propieties["composition"][0]["species"]
-
+	   print("\n",propieties)	
 	   if first == 0:
 	       all_materialsfield = text+"_/_"+str(start)+"_/_"+str(end)+"_/_"+material_string+"_/_"+material_name+"_/_"+material_formula+"_/_"+phase+"_/_"+str(additives)+"_/_"+str(oxygen_deficiency)+"_/_"+str(is_acronym)+"_/_"+str(amounts_vars)+"_/_"+str(elements_vars)+"_/_"+str(formula)+"_/_"+str(amount)+"_/_"+str(elements)+"_/_"+str(species)+"_/_"+str(sentence)
 	       first = 1
@@ -56,5 +57,5 @@ if __name__ == "__main__":
 	       all_materialsfield = all_materialsfield+"#/#"+text+"_/_"+str(start)+"_/_"+str(end)+"_/_"+material_string+"_/_"+material_name+"_/_"+material_formula+"_/_"+phase+"_/_"+str(additives)+"_/_"+str(oxygen_deficiency)+"_/_"+str(is_acronym)+"_/_"+str(amounts_vars)+"_/_"+str(elements_vars)+"_/_"+str(formula)+"_/_"+str(amount)+"_/_"+str(elements)+"_/_"+str(species)+"_/_"+str(sentence)
 
         # all_material_propieties:
-	print('_//_',all_materialsfield)
+	# print('_//_',all_materialsfield)
 
