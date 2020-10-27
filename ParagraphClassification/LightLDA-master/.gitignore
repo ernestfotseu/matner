@@ -1,0 +1,12 @@
+.vs/
+Release/
+Debug/
+*.vcxproj.user
+
+CMakeLists.txt
+cmake-build-debug/
+.idea/
+bin
+Multiverso
+*.o
+example/data
