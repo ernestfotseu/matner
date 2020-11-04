@@ -6,6 +6,7 @@ import os
 
 from materials_entity_recognition import MatRecognition
 from materials_entity_recognition import MatIdentification
+from material_parser.material_parser import MaterialParser
 
 __author__ = 'Tanjin He'
 __maintainer__ = 'Tanjin He'
@@ -88,13 +89,47 @@ if __name__ == "__main__":
 	p.close()
 	p.join()
 
+	mpr = MaterialParser(pubchem_lookup=False, verbose=False)
 	# reading results
-	print('time used:', time.time()-last_time_time)
+	print("\n #################")
+	print('TIME USED :', time.time()-last_time_time)
 	# combine all results
 	all_results = sum(results, [])
-	print('len(all_results)', len(all_results))
-	print(all_results)
+	# print('len(all_results)', len(all_results))
+	# print(all_results)
 	with open(all_results[0], 'r') as json_data:
-           data_dict = json.load(json_data)
-           print("Data Dictionnary Generated:",data_dict)
-
+		data_dict = json.load(json_data)   
+		# print("Data Dictionnary Generated:",data_dict)
+		print("\n ################# Print Results ################# \n ")
+		for materialinit in data_dict:
+			paragraphline = materialinit['paragraph']
+			all_materials = materialinit['all_materials']
+			print("\n *******************************************************************")
+			print("\n Paragraph : ",paragraphline)			      
+			for material_string in all_materials:
+			  material_propriety=mpr.parse_material_string(material_string['text'])        			
+			  text = material_string['text']
+			  start = material_string['start']
+			  end = material_string['end']	   
+			  sentence = material_string['sentence']
+			  # Parcourir le json
+			  propieties = json.loads(json.dumps(material_propriety))
+			  material_string = propieties["material_string"]
+			  material_name = propieties["material_name"]
+			  material_formula = propieties["material_formula"]
+			  phase = propieties["phase"]
+			  additives = propieties["additives"]
+			  oxygen_deficiency = propieties["oxygen_deficiency"]
+			  is_acronym = propieties["is_acronym"]
+			  amounts_vars = propieties["amounts_vars"]
+			  elements_vars = propieties["elements_vars"]
+			  formula = propieties["composition"][0]["formula"]
+			  amount = propieties["composition"][0]["amount"]
+			  elements = propieties["composition"][0]["elements"]
+			  species = propieties["composition"][0]["species"]
+			  print("\n ----------------------------------------------------------------")
+			  print("\n Text :",text)
+			  print("\n Start :",start)
+			  print("\n End :",end)
+			  print("\n Sentence :",sentence)
+			  print("\n Propieties : ",propieties)
