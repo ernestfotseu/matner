@@ -10,7 +10,7 @@ python text2libsvm.py <docword.input> <vocab.input> <libsvm.output> <dict.output
 import sys
 
 if len(sys.argv) != 5:
-    print "Usage: python text2libsvm.py <docword.input> <vocab.input> <libsvm.output> <dict.output>"
+    print ("Usage: python text2libsvm.py <docword.input> <vocab.input> <libsvm.output> <dict.output>")
     exit(1)
 
 data_file = open(sys.argv[1], 'r')
