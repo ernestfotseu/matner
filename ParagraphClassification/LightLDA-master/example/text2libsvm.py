@@ -36,7 +36,7 @@ while line:
         doc_id = int(col[0])
         word_id = int(col[1]) - 1
         word_count = int(col[2])
-        if not word_dict.has_key(word_id):
+        if word_id not in word_dict:
             word_dict[word_id] = 0
         word_dict[word_id] += word_count
         if doc_id != last_doc_id:
